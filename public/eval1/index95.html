@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style6.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <audio id="s1">
+        <source src="audio/montagne.mp3">
+    </audio>
+
+    <header>
+        <div class="headline">
+            <div class="titlepart">
+                <div id="titre">تحديد مستوى: المرحلة الأولى</div>
+            </div>
+            <div id="logo"></div>
+            <div class="traduction">
+                <div class="trd" id="Tr" onclick="traduire('Turkish')">Tr</div>
+                <div class="trd" id="Al" onclick="traduire('German')">Al</div>
+                <div class="trd" id="Fr" onclick="traduire('French')">Fr</div>
+                <div class="trd" id="En" onclick="traduire('English')">En</div>
+            </div>
+    </header>
+    <main>
+        <div class="question">
+            <div class="questArab" id="questArab1">أَسْتَمِعُ، ثُمَّ أَكْتُبُ:</div>
+            <div class="questTrad">
+                <div id="initial"> J'écoute, puis j'écris:</div>
+                <div id="French"> J'écoute, puis j'écris:</div>
+                <div id="English"> I listen, then I write:</div>
+                <div id="Turkish"> Dinliyorum, sonra yazarım:</div>
+                <div id="German"> Ich höre zu,  dann schreibe ich:</div>
+            </div>
+        </div>
+        <div class="compteur" style="display: none;">
+            <div class="time">
+                <div class="cmpt">
+                    <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>
+                </div>
+            </div>
+        </div>
+        <div class="exercice">
+            <div class="num">96</div>
+            <div class="alphabet">
+                <div class="l1">
+                    <div class="alph" id="a1" onclick="cliquer('a1')">أ</div>
+                    <div class="alph" id="a2" onclick="cliquer('a2')">ب</div>
+                    <div class="alph" id="a3" onclick="cliquer('a3')">ت</div>
+                    <div class="alph" id="a4" onclick="cliquer('a4')">ث</div>
+                    <div class="alph" id="a5" onclick="cliquer('a5')">ج</div>
+                    <div class="alph" id="a6" onclick="cliquer('a6')">ح</div>
+                    <div class="alph" id="a7" onclick="cliquer('a7')">خ</div>
+                    <div class="alph" id="a8" onclick="cliquer('a8')">د</div>
+                    <div class="alph" id="a9" onclick="cliquer('a9')">ذ</div>
+                    <div class="alph" id="a10" onclick="cliquer('a10')">ر</div>
+                    <div class="alph" id="a11" onclick="cliquer('a11')">ز</div>
+                </div>
+                <div class="l2">
+                    <div class="alph" id="a12" onclick="cliquer('a12')">س</div>
+                    <div class="alph" id="a13" onclick="cliquer('a13')">ش</div>
+                    <div class="alph" id="a14" onclick="cliquer('a14')">ص</div>
+                    <div class="alph" id="a15" onclick="cliquer('a15')">ض</div>
+                    <div class="alph" id="a16" onclick="cliquer('a16')">ط</div>
+                    <div class="alph" id="a17" onclick="cliquer('a17')">ظ</div>
+                    <div class="alph" id="a18" onclick="cliquer('a18')">ع</div>
+                    <div class="alph" id="a19" onclick="cliquer('a19')">غ</div>
+                    <div class="alph" id="a20" onclick="cliquer('a20')">ف</div>
+                    <div class="alph" id="a21" onclick="cliquer('a21')">ق</div>
+                    <div class="alph" id="a22" onclick="cliquer('a22')">ك</div>
+                </div>
+                <div class="l3">
+                    <div class="alph" id="a23" onclick="cliquer('a23')">ل</div>
+                    <div class="alph" id="a24" onclick="cliquer('a24')">م</div>
+                    <div class="alph" id="a25" onclick="cliquer('a25')">ن</div>
+                    <div class="alph" id="a26" onclick="cliquer('a26')">ه</div>
+                    <div class="alph" id="a27" onclick="cliquer('a27')">و</div>
+                    <div class="alph" id="a28" onclick="cliquer('a28')">ي</div>
+                    <div class="alph" id="a29" onclick="cliquer('a29')">إ</div>
+                    <div class="alph" id="a30" onclick="cliquer('a30')">ة</div>
+                    <div class="alph" id="a31" onclick="cliquer('a31')">ا</div>
+                    <div class="alph" id="a32" onclick="cliquer('a32')">ى</div>
+                    <div class="alph" id="x" onclick="remove('x')">X</div>
+                </div>
+            </div>
+            <div class="part1">
+                <div class="audio" id="audio1"></div>
+                <div class="mot"><span class="ltt" id="ltt">...</span></div>
+            </div> 
+        <div class="part2">
+            <div class="image3"></div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div id="suivant" onclick='verification()'></div>
+    </footer>
+    <script src="script95.js"></script>
+    <script src="compteur.js"></script>
+</body>
+
+</html>

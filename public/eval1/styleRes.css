@@ -1,0 +1,615 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+header {
+    width: 95%;
+    height: 12%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#titre {
+    width: 46%;
+    height: 90%;
+    font-size: 5vh;
+    color: black;
+    font-family: 'Lateef', cursive;
+    line-height: 1.8em;
+}
+
+#logo {
+    width: 11%;
+    height: 100%;
+    background-image: url(image/logo.png);
+    background-size: 100% 100%;
+}
+
+main {
+    margin: auto;
+    width: 95%;
+    height: 68%;
+    margin-top: 1%;
+}
+
+.container {
+    width: 85%;
+    height: 12%;
+    margin: auto;
+}
+
+.bienvenue {
+    width: 90%;
+    height: 94%;
+    margin: auto;
+    text-align: center;
+    font-size: 4.2vh;
+    color: black;
+    font-family: 'elmessiri', cursive;
+}
+
+.contenue {
+    width: 85%;
+    height: 72%;
+    margin: auto;
+    justify-content: center;
+}
+
+.ligne {
+    width: 40%;
+    height: 23%;
+    margin: auto;
+    display: flex;
+}
+
+.nom {
+    width: 50%;
+    height: 13%;
+    margin: auto;
+    text-align: justify;
+    font-size: 4.2vh;
+    line-height: 2em;
+    color: black;
+    font-family: 'elmessiri', cursive;
+}
+
+.valeur {
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    margin-top: 1%;
+    background-image: url(image/block.png);
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 5vh;
+    line-height: 2em;
+    color: black;
+    font-family: 'Lateef', cursive;
+}
+
+.value {
+    width: 39%;
+    height: 80%;
+    margin: auto;
+    margin-top: 1%;
+    background-image: url(image/block1.png);
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 5vh;
+    line-height: 2em;
+    color: black;
+    font-family: 'Lateef', cursive;
+}
+
+#level {
+    text-align: center;
+    font-size: 4.2vh;
+    color: red;
+    line-height: 2.2em;
+    font-family: 'El Messiri', sans-serif;
+}
+
+footer {
+    width: 65%;
+    height: 12%;
+    margin: auto;
+    display: flex;
+    margin-top: 2%;
+}
+
+.livre {
+    width: 74%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.livreElec {
+    width: 52%;
+    height: 97%;
+    background-image: url(image/livreElec.png);
+    background-size: 100% 100%;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 3vh;
+    color: white;
+    text-align: center;
+    line-height: 2.4em;
+    cursor: pointer;
+}
+
+.livrePap {
+    width: 44%;
+    height: 97%;
+    background-image: url(image/livrePap.png);
+    background-size: 100% 100%;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 3vh;
+    color: white;
+    text-align: center;
+    line-height: 2.4em;
+    cursor: pointer;
+}
+
+/*responsives*/
+/*tablets & ipads*/
+@media (min-width: 481px) and (max-width: 780px) {
+    header {
+        width: 95%;
+        height: 12%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #titre {
+        width: 46%;
+        height: 90%;
+        font-size: 5vh;
+        color: black;
+        font-family: 'Lateef', cursive;
+        line-height: 2.3em;
+    }
+
+    #logo {
+        width: 10%;
+        height: 100%;
+        background-image: url(image/logo.png);
+        background-size: 100% 100%;
+    }
+
+    .bienvenue {
+        width: 96%;
+        height: 94%;
+        margin: auto;
+        text-align: center;
+        font-size: 4.2vh;
+        color: black;
+        font-family: 'elmessiri', cursive;
+    }
+
+    .ligne {
+        width: 46%;
+        height: 23%;
+        margin: auto;
+        display: flex;
+        margin-top: 1%;
+    }
+
+    .valeur {
+        width: 60%;
+        height: 80%;
+        margin: auto;
+        margin-top: 1%;
+        background-image: url(image/block.png);
+        background-size: 100% 100%;
+        text-align: center;
+        font-size: 4vh;
+        line-height: 2em;
+        color: black;
+        font-family: 'elmessiri', cursive;
+    }
+
+    .value {
+        width: 39%;
+        height: 80%;
+        margin: auto;
+        margin-top: 1%;
+        background-image: url(image/block1.png);
+        background-size: 100% 100%;
+        text-align: center;
+        font-size: 3.5vh;
+        line-height: 2.5em;
+        color: black;
+        font-family: 'elmessiri', cursive;
+    }
+
+    .livre {
+        width: 61%;
+        height: 60%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .livreElec {
+        width: 52%;
+        height: 97%;
+        background-image: url(image/livreElec.png);
+        background-size: 100% 100%;
+        font-family: 'El Messiri', sans-serif;
+        font-size: 2.75vh;
+        color: white;
+        text-align: center;
+        line-height: 2.4em;
+        cursor: pointer;
+    }
+
+    .livrePap {
+        width: 44%;
+        height: 97%;
+        background-image: url(image/livrePap.png);
+        background-size: 100% 100%;
+        font-family: 'El Messiri', sans-serif;
+        font-size: 2.75vh;
+        color: white;
+        text-align: center;
+        line-height: 2.4em;
+        cursor: pointer;
+    }
+
+}
+
+/*tablets*/
+@media (max-width: 600px) {
+    header {
+        width: 95%;
+        height: 12%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #titre {
+        width: 52%;
+        height: 90%;
+        font-size: 4.6vh;
+        color: black;
+        font-family: 'Lateef', cursive;
+        line-height: 1.8em;
+    }
+    #logo {
+        width: 12%;
+        height: 97%;
+        background-image: url(image/logo.png);
+        background-size: 100% 100%;
+    }
+    main {
+        margin: auto;
+        width: 96%;
+        height: 74%;
+    }
+    .container {
+        width: 95%;
+        height: 11%;
+        margin: auto;
+    }
+    .bienvenue {
+        width: 96%;
+        height: 84%;
+        margin: auto;
+        text-align: center;
+        font-size: 4.4vh;
+        color: black;
+        font-family: 'Lateef', cursive;
+    }
+    .nom {
+        width: 50%;
+        height: 12%;
+        margin: auto;
+        text-align: justify;
+        font-size: 4.5vh;
+        line-height: 2em;
+        color: black;
+        font-family: 'Lateef', cursive;
+    }
+    .contenue {
+        width: 95%;
+        height: 69%;
+        margin: auto;
+        justify-content: center;
+        margin-top: 4%;
+    }
+    .ligne {
+        width: 53%;
+        height: 22%;
+        margin: auto;
+        display: flex;
+    }
+    .valeur {
+        width: 58%;
+        height: 80%;
+        margin: auto;
+        margin-top: 1%;
+        background-image: url(image/block.png);
+        background-size: 100% 100%;
+        text-align: center;
+        font-size: 4.8vh;
+        line-height: 2em;
+        color: black;
+        font-family: 'Lateef', cursive;
+    }
+    .value {
+        width: 36%;
+        height: 80%;
+        margin: auto;
+        margin-top: 1%;
+        background-image: url(image/block1.png);
+        background-size: 100% 100%;
+        text-align: center;
+        font-size: 4.8vh;
+        line-height: 2em;
+        color: black;
+        font-family: 'Lateef', cursive;
+    }
+    footer {
+        width: 65%;
+        height: 12%;
+        margin: auto;
+        display: flex;
+    }
+    .livre {
+        width: 79%;
+        height: 60%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #titre {
+        width: 57%;
+        height: 80%;
+        font-size: 4.2vh;
+        color: black;
+        font-family: 'Lateef', cursive;
+        line-height: 1.8em;
+        margin-top: 2%;
+    }
+    #logo {
+        width: 15%;
+        height: 89%;
+        background-image: url(image/logo.png);
+        background-size: 100% 100%;
+    }
+    main {
+        margin: auto;
+        width: 100%;
+        height: 70%;
+    }
+    .container {
+        width: 100%;
+        height: 8%;
+        margin: auto;
+    }
+    .bienvenue {
+        width: 98%;
+        height: 86%;
+        margin: auto;
+        text-align: center;
+        font-size: 3.1vh;
+        color: black;
+        font-family: 'elmessiri', cursive;
+    }
+    .nom {
+        width: 50%;
+        height: 12%;
+        margin: auto;
+        text-align: justify;
+        font-size: 3.5vh;
+        line-height: 2em;
+        color: black;
+        font-family: 'elmessiri', cursive;
+    }
+    .contenue {
+        width: 96%;
+        height: 68%;
+        margin: auto;
+        justify-content: center;
+        margin-top: 6%;
+    }
+    .ligne {
+        width: 59%;
+        height: 22%;
+        margin: auto;
+        display: flex;
+    }
+    .valeur {
+        width: 58%;
+        height: 80%;
+        margin: auto;
+        margin-top: 1%;
+        background-image: url(image/block.png);
+        background-size: 100% 100%;
+        text-align: center;
+        font-size: 4.2vh;
+        line-height: 2em;
+        color: black;
+        font-family: 'Lateef', cursive;
+    }
+    .value {
+        width: 36%;
+        height: 80%;
+        margin: auto;
+        margin-top: 1%;
+        background-image: url(image/block1.png);
+        background-size: 100% 100%;
+        text-align: center;
+        font-size: 4.2vh;
+        line-height: 2em;
+        color: black;
+        font-family: 'Lateef', cursive;
+    }   
+    #level {
+        text-align: center;
+        font-size: 4vh;
+        color: red;
+        line-height: 2.1em;
+    }
+    .livre {
+        width: 98%;
+        height: 60%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .livreElec {
+        width: 52%;
+        height: 97%;
+        background-image: url(image/livreElec.png);
+        background-size: 100% 100%;
+        font-family: 'El Messiri', sans-serif;
+        font-size: 2.6vh;
+        color: white;
+        text-align: center;
+        line-height: 2.8em;
+        cursor: pointer;
+    }
+    .livrePap {
+        width: 45%;
+        height: 97%;
+        background-image: url(image/livrePap.png);
+        background-size: 100% 100%;
+        font-family: 'El Messiri', sans-serif;
+        font-size: 2.6vh;
+        color: white;
+        text-align: center;
+        line-height: 2.8em;
+        cursor: pointer;
+    }
+    
+}
+@media (max-width: 350px) {
+    .contenue {
+        width: 96%;
+        height: 66%;
+        margin: auto;
+        justify-content: center;
+        margin-top: 7%;
+    }
+    header {
+        width: 97%;
+        height: 12%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #titre {
+        width: 72%;
+        height: 90%;
+        font-size: 3.8vh;
+        color: black;
+        font-family: 'Lateef', cursive;
+        line-height: 1.8em;
+        margin-top: 4%;
+    }
+    #logo {
+        width: 18%;
+        height: 87%;
+        background-image: url(image/logo.png);
+        background-size: 100% 100%;
+    }
+    .bienvenue {
+        width: 100%;
+        height: 98%;
+        margin: auto;
+        text-align: center;
+        font-size: 2.4vh;
+        color: black;
+        font-family: 'elmessiri', cursive;
+        line-height: 2.4em;
+    }
+    .nom {
+        width: 73%;
+        height: 12%;
+        margin: auto;
+        text-align: justify;
+        font-size: 3vh;
+        line-height: 2em;
+        color: black;
+        font-family: 'elmessiri', cursive;
+    }
+    .ligne {
+        width: 80%;
+        height: 25%;
+        margin: auto;
+        display: flex;
+    }
+    .valeur {
+        width: 58%;
+        height: 72%;
+        margin: auto;
+        background-image: url(image/block.png);
+        background-size: 100% 100%;
+        text-align: center;
+        font-size: 3.7vh;
+        line-height: 2em;
+        color: black;
+        font-family: 'Lateef', cursive;
+    }
+    .value {
+        width: 36%;
+        height: 72%;
+        margin: auto;
+        background-image: url(image/block1.png);
+        background-size: 100% 100%;
+        text-align: center;
+        font-size: 4vh;
+        line-height: 2em;
+        color: black;
+        font-family: 'Lateef', cursive;
+    }
+    .ligne {
+        width: 80%;
+        height: 23%;
+        margin: auto;
+        display: flex;
+    } 
+    footer {
+        width: 71%;
+        height: 12%;
+        margin: auto;
+        display: flex;
+    }
+    .livreElec {
+        width: 52%;
+        height: 97%;
+        background-image: url(image/livreElec.png);
+        background-size: 100% 100%;
+        font-family: 'El Messiri', sans-serif;
+        font-size: 2.2vh;
+        color: white;
+        text-align: center;
+        line-height: 3.1em;
+        cursor: pointer;
+    }
+    .livrePap {
+        width: 46%;
+        height: 97%;
+        background-image: url(image/livrePap.png);
+        background-size: 100% 100%;
+        font-family: 'El Messiri', sans-serif;
+        font-size: 2.2vh;
+        color: white;
+        text-align: center;
+        line-height: 3.1em;
+        cursor: pointer;
+    }
+}

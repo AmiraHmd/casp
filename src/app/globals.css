@@ -1,0 +1,189 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  button,
+  [role="button"],
+  a,
+  input[type="submit"],
+  input[type="button"],
+  select {
+    cursor: pointer;
+  }
+}
+
+@theme {
+  /* Shadow System - Brand aligned */
+  --shadow-soft-sm: 0 2px 12px -2px rgba(43, 90, 150, 0.1);
+  --shadow-soft: 0 8px 28px -6px rgba(43, 90, 150, 0.12);
+  --shadow-soft-md: 0 12px 36px -8px rgba(43, 90, 150, 0.15);
+  --shadow-soft-lg: 0 16px 52px -12px rgba(43, 90, 150, 0.18);
+  --shadow-soft-hover: 0 14px 40px -8px rgba(244, 121, 32, 0.25);
+  --shadow-soft-primary: 0 8px 28px -6px rgba(43, 90, 150, 0.18);
+  --shadow-inner-soft: inset 0 2px 4px 0 rgba(43, 90, 150, 0.06);
+  --shadow-3d: 0 6px 0 0 #2b5a96;
+  --shadow-3d-pressed: 0 2px 0 0 #2b5a96;
+  --shadow-focus: 0 0 0 3px rgba(244, 121, 32, 0.2);
+
+  /* Brand Palette Variables */
+  --color-brand-navy: #2b5a96;
+  --color-brand-navy-light: #3b6ca8;
+  --color-brand-navy-dark: #1a3a61;
+
+  --color-brand-orange: #f47920;
+  --color-brand-orange-light: #f79a55;
+  --color-brand-orange-dark: #c35d16;
+
+  --color-brand-sky: #7cb9e8;
+  --color-brand-sky-light: #a4d0f1;
+  --color-brand-sky-dark: #4a9ed7;
+
+  --color-brand-gold: #eab308;
+  --color-brand-gold-light: #f0c845;
+  --color-brand-gold-dark: #a37d06;
+}
+
+@layer base {
+  :root {
+    /* Light Mode */
+    --background: #ffffff;
+    --foreground: #2b5a96; /* Brand Navy for text */
+
+    /* Semantic Colors */
+    --primary: #f47920; /* Brand Orange */
+    --secondary: #2b5a96; /* Brand Navy */
+    --accent: #7cb9e8; /* Brand Sky */
+    --highlight: #eab308; /* Brand Gold */
+
+    /* Legacy mapping to prevent immediate hard crash, but should be refactored */
+    --color-primary: var(--primary);
+    --color-secondary: var(--secondary);
+  }
+
+  .dark {
+    /* Dark Mode - Deep Navy Base */
+    --background: #09121e; /* Very deep navy/black from palette 900 */
+    --foreground: #f2f8fc; /* White/Sky-50 for text */
+
+    /* Semantic Colors */
+    --primary: #f47920; /* Brand Orange stays vibrant */
+    --secondary: #7cb9e8; /* Navy becomes Sky in dark mode often */
+    --accent: #2b5a96;
+  }
+
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-brand-navy-200, #99c2eb);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-cairo), sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+  }
+
+  /* Typography Defaults */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold tracking-tight text-brand-navy dark:text-white;
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+
+  /* Smooth Transitions */
+  nav,
+  header,
+  footer,
+  div,
+  span,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  button,
+  a {
+    transition-property:
+      color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+  }
+
+  /* Focus States */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand-orange outline-dashed;
+  }
+
+  [dir="rtl"] {
+    direction: rtl;
+  }
+  [dir="ltr"] {
+    direction: ltr;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  /* Card Styles */
+  .card {
+    @apply bg-white dark:bg-brand-navy-dark rounded-3xl shadow-soft border border-brand-sky/20 transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply hover:shadow-soft-hover hover:-translate-y-1;
+  }
+
+  /* Glassmorphism */
+  .glass {
+    @apply bg-white/80 dark:bg-brand-navy-dark/80 backdrop-blur-xl border border-white/50 dark:border-brand-navy/50 rounded-3xl;
+  }
+
+  /* Text Gradients */
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-linear-to-r from-brand-navy to-brand-sky;
+  }
+
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent bg-linear-to-r from-brand-orange to-brand-gold;
+  }
+
+  /* RTL Utilities */
+  .rtl\:text-right {
+    [dir="rtl"] & {
+      text-align: right;
+    }
+  }
+  .ltr\:text-left {
+    [dir="ltr"] & {
+      text-align: left;
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

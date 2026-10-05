@@ -1,0 +1,582 @@
+{
+  "PrivateBook": {
+    "title": "Private Book Collection",
+    "description": "Access our exclusive collection of educational resources.",
+    "tabRequest": "Request Link",
+    "tabCode": "I have a Code",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "you@example.com",
+    "codeLabel": "Access Code",
+    "codePlaceholder": "Enter your code here",
+    "getLink": "Get Access Link",
+    "verify": "Verify Code",
+    "sending": "Processing...",
+    "expiryNote": "24-Hour Expiry",
+    "noDownloads": "No Downloads",
+    "emailSent": "Link sent to your email!",
+    "errorGeneric": "Something went wrong.",
+    "errorNetwork": "Network error. Please try again.",
+    "expired": "This code has expired.",
+    "invalid": "Invalid email or code.",
+    "errorTitle": "Access Expired or Invalid",
+    "errorDescription": "The secure link you used is either expired or invalid. Try again",
+    "requestNew": "Request New Access",
+    "secureAccess": "Secure Access",
+    "accessibleBy": "Accessible by",
+    "assasBooks": "Assas Books",
+    "exercicesBooks": "Exercices Books",
+    "wafiBooks": "Al Wafi",
+    "gardenBooks": "Garden",
+    "mufidBooks": "Al Mufid",
+    "shamilBooks": "Shamil",
+    "tarikmunirArBooks": "Tareeq Al-Muneer",
+    "hidayaFrBooks": "Hidayah French",
+    "happymuslimEnBooks": "Happy Muslim English",
+    "welcome": "Welcome to our private book collection"
+  },
+  "RiyadaBook": {
+    "title": "Riyada Book Series",
+    "description": "Enter your secret access code to browse the interactive Riyada collection.",
+    "codeLabel": "Secret Access Code",
+    "codePlaceholder": "Enter your code here",
+    "verify": "Access Riyada Books",
+    "sending": "Verifying...",
+    "expiryNote": "Limited Validity",
+    "noDownloads": "No Downloads",
+    "errorGeneric": "Something went wrong.",
+    "errorNetwork": "Network error. Please try again.",
+    "expired": "This code has expired.",
+    "invalid": "Invalid or expired code.",
+    "accessDenied": "Access Denied",
+    "accessDeniedDesc": "You need a valid access code to view the Riyada Collection. Please return to the store and enter your code.",
+    "returnToStore": "Return to Store",
+    "welcome": "Welcome! Enjoy browsing the Riyada series."
+  },
+  "nav": {
+    "home": "Home",
+    "curricula": "Curricula",
+    "quizzes": "Tests",
+    "channel": "Channel",
+    "platforms": "Platforms",
+    "services": "Services",
+    "store": "Store",
+    "gardenOfArabic": "Garden of Arabic",
+    "teacherGuide": "Teacher Guide",
+    "placementTest": "Placement Test",
+    "contact": "Contact",
+    "educationalPlatform": "Educational Platform",
+    "educationalChannel": "Educational Channel",
+    "login": "Login",
+    "register": "Register",
+    "readBook": "Read Book",
+    "academy": "Training Academy",
+    "download": "Download",
+    "close": "Close"
+  },
+  "common": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "welcome": "Welcome",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "search": "Search",
+    "language": "Language",
+    "exploreNow": "Explore Now",
+    "pageNotFound": "Page Not Found",
+    "pageNotFoundDescription": "The page you are looking for does not exist.",
+    "goHome": "Go Home",
+    "currency": "SAR"
+  },
+  "home": {
+    "littleTitle": "The Leading Casp Educational Platform",
+    "title": "Welcome to Casp Education",
+    "subtitle": "We offer the best educational resources for Arabic",
+    "heroTitle": "The Arab Center for Educational Services",
+    "heroDescription": "Discover a wide range of books, lessons, and educational resources specially designed for learning Arabic",
+    "trustedBy": "Trusted by 25,000+ students & teachers",
+    "popularResources": "Popular Educational Resources",
+    "expertsTitle": "Our Educational Experts",
+    "testimonialsTitle": "What Parents & Teachers Say",
+    "feedback": "Feedback",
+    "aboutTitle": "About Casp Education",
+    "aboutDescription": "We are dedicated to providing the best educational resources for Arabic learning, combining modern pedagogical methods with engaging content.",
+    "aboutPoint1": "Certified and integrated educational curricula",
+    "aboutPoint2": "Interactive tools and modern learning technologies",
+    "aboutPoint3": "Educational experts specializing in Arabic language",
+    "trustedByFull": "Trusted by leading educational institutions",
+    "noProducts": "No products found in this category.",
+    "partnersTitle": "Our Partners & Distributors Worldwide",
+    "partnersSubtitle": "We are proud to partner with leading educational institutions around the globe",
+    "featuredPartner": "Featured Partner",
+    "visitWebsite": "Visit Website",
+    "publications": "Our Publications",
+    "publicationsLabel": "OUR PUBLICATIONS",
+    "partners": "Our Partners",
+    "publicationsSubtitle": "We offer distinguished educational collections carefully designed to meet the needs of learners at various stages.",
+    "premiumButton1": "Shop Now",
+    "premiumButton2": "Teacher's Guide",
+    "premiumIcon1": "Certified Curricula",
+    "premiumIcon2": "Educational Community",
+    "videoTitle": "Discover the Casp Education Universe",
+    "videoSubtitle": "A quick look at our mission, programs, and our impact on Arabic language education.",
+    "newsTicker": {
+      "label": "Latest News",
+      "item1": "Find out the new 'Garden of Arabic' series!",
+      "item2": "Join our educational platform today and explore new horizons.",
+      "item3": "Start a fun journey to discover and learn Arabic with ease.",
+      "item4": "Develop your skills through fun and interactive learning activities."
+    },
+    "platforms": {
+      "label": "OUR PLATFORMS",
+      "title": "Explore Our Leading Platforms",
+      "subtitle": "We provide integrated digital solutions to support your educational journey and open new horizons of creativity.",
+      "keetabyTitle": "Keetaby Platform",
+      "keetabyDesc": "The smartest library and the most enjoyable interactive reading experience.",
+      "qalamnetTitle": "QalamNet Platform",
+      "qalamnetDesc": "A space for creators and writers to share ideas and interact.",
+      "wafiTitle": "Al-Wafi Platform",
+      "wafiDesc": "The integrated educational environment for learning management.",
+      "visitPlatform": "Visit Platform"
+    },
+    "mentors": {
+      "item1": {
+        "name": "Dr. Ahmad Ibrahim",
+        "role": "Author & Educator"
+      },
+      "item2": {
+        "name": "Prof. Fatima Zehra",
+        "role": "Arabic Language Expert"
+      },
+      "item3": {
+        "name": "Mr. Khalid Mansour",
+        "role": "Curriculum Designer"
+      }
+    },
+    "testimonials": {
+      "item1": {
+        "name": "Sara Khan",
+        "role": "Parent",
+        "comment": "The Al-Wafi series has transformed how my children learn Arabic. It's engaging and very well structured!"
+      },
+      "item2": {
+        "name": "Mohammad Al-Farsi",
+        "role": "Arabic Teacher",
+        "comment": "As a teacher, I find the teaching tools and CDs from Casp Education to be indispensable in my classroom."
+      },
+      "item3": {
+        "name": "Laila Hassan",
+        "role": "Educational Consultant",
+        "comment": "Highly professional resources that follow modern pedagogical standards while preserving the beauty of the language."
+      }
+    }
+  },
+  "publications": {
+    "happyMuslim": "The Happy Muslim Series",
+    "illuminatingPath": "Illuminating Path Series",
+    "arabicShamel": "Arabic Shamel Series",
+    "arabicGarden": "Arabic Garden Series"
+  },
+  "partners": {
+    "maktabatouna": {
+      "name": "Sarl Maktabatouna",
+      "address": "2 Impasse Charles Vildrac, 94000 Creteil",
+      "website": "www.maktabatouna.com",
+      "email": "Contact@maktabatouna.com",
+      "phone": "00 33 651 62 55 00",
+      "phone2": ""
+    },
+    "sindbad": {
+      "name": "Sindbadglobal.com",
+      "address": "427 Chieftan Cir, Mississauga ON L4Z 3A8",
+      "website": "www.sindbadglobal.com",
+      "email": "info@sindbadglobal.com",
+      "phone": "+1 514 443 8585",
+      "phone2": "+1 416 558 0436"
+    },
+    "darManabe": {
+      "name": "Dar Manabe Alnour",
+      "address": "Fevzipaşa Cad. Fatih PTT Merkezi No:11 Kat: 9/3, 34080 Fatih – Istanbul",
+      "website": "www.darmanabiunnur.com",
+      "email": "manabealnour@gmail.com",
+      "phone": "+90 546 590 74 07",
+      "phone2": "+90 552 213 61 35"
+    },
+    "averroes": {
+      "name": "AVERROES Bookshop",
+      "address": "Hohe Strasse 27, 47051 Duisburg, Germany",
+      "website": "kitab.eu",
+      "email": "info@kitab.eu",
+      "phone": "+49 1577 286 7866",
+      "phone2": ""
+    },
+    "darAlKutub": {
+      "name": "Dar Al-Kutub",
+      "address": "Kreuzgasse 8, 3294 Büren an der Aare, Switzerland",
+      "website": "www.maktaba.ch",
+      "email": "hello@maktaba.ch",
+      "phone": "0041 79 883 3761",
+      "phone2": ""
+    },
+    "ta3liem": {
+      "name": "Ta3liem Distribution",
+      "address": "Netherlands",
+      "website": "",
+      "email": "ta3liemdistribution@outlook.com",
+      "phone": "0031 649 902 090",
+      "phone2": ""
+    }
+  },
+  "teacherGuide": {
+    "title": "Teacher Guide",
+    "description": "Comprehensive resources and guides for Arabic teachers",
+    "stagesOfGrowth": "Guide Books",
+    "stagesDesc": "Browse and download teacher guides for all levels",
+    "readBtn": "Read Book",
+    "downloadBtn": "Download PDF",
+    "close": "Close",
+    "explore": "Explore Series",
+    "garden": {
+      "title": "Garden of Arabic",
+      "desc": "A comprehensive curriculum from KG to Grade 10",
+      "books": {
+        "kg": "Teacher Guide - KG",
+        "prep": "Teacher Guide - Preparatory",
+        "1": "Teacher Guide - Grade 1",
+        "2": "Teacher Guide - Grade 2",
+        "3": "Teacher Guide - Grade 3",
+        "4": "Teacher Guide - Grade 4",
+        "5": "Teacher Guide - Grade 5",
+        "6": "Teacher Guide - Grade 6",
+        "7": "Teacher Guide - Grade 7",
+        "8": "Teacher Guide - Grade 8",
+        "9": "Teacher Guide - Grade 9",
+        "10": "Teacher Guide - Grade 10",
+        "comp1": "Teacher Guide - Comprehensive 1",
+        "comp3": "Teacher Guide - Comprehensive 3",
+        "comp4": "Teacher Guide - Comprehensive 4"
+      }
+    },
+    "wafi": {
+      "title": "Al-Wafi",
+      "desc": "Al-Wafi Series for Arabic Education",
+      "books": {
+        "kg": "Al-Wafi KG",
+        "intro": "Al-Wafi Introductory",
+        "1": "Al-Wafi 1",
+        "2": "Al-Wafi 2",
+        "3": "Al-Wafi 3",
+        "4": "Al-Wafi 4",
+        "5": "Al-Wafi 5",
+        "6": "Al-Wafi 6",
+        "7": "Al-Wafi 7",
+        "8": "Al-Wafi 8"
+      }
+    },
+    "mufid": {
+      "title": "Al-Mufid",
+      "desc": "Al-Mufid Series for Non-Native Speakers",
+      "books": {
+        "kg": "Al-Mufid KG",
+        "prep": "Al-Mufid Preparatory",
+        "1": "Al-Mufid 1",
+        "2": "Al-Mufid 2",
+        "3": "Al-Mufid 3",
+        "4": "Al-Mufid 4",
+        "5": "Al-Mufid 5",
+        "6": "Al-Mufid 6"
+      }
+    },
+    "happy": {
+      "title": "Happy Muslim",
+      "desc": "Educational curriculum for Islamic values and ethics",
+      "books": {
+        "kg": "Teacher Guide - KG",
+        "prep": "Teacher Guide - Preparatory",
+        "1": "Teacher Guide - Level 1",
+        "2": "Teacher Guide - Level 2",
+        "3": "Teacher Guide - Level 3",
+        "4": "Teacher Guide - Level 4",
+        "5": "Teacher Guide - Level 5",
+        "6": "Teacher Guide - Level 6",
+        "7": "Teacher Guide - Level 7",
+        "8": "Teacher Guide - Level 8",
+        "9": "Teacher Guide - Level 9",
+        "10": "Teacher Guide - Level 10"
+      }
+    }
+  },
+  "happyMuslimGuide": {
+    "title": "Teacher's Guide: Happy Muslim",
+    "description": "Pedagogical guidelines for instilling values and creating fun classroom activities.",
+    "guideBook1": "Guide: My Beautiful Religion",
+    "guideBook2": "Guide: My Good Manners",
+    "guideBook3": "Guide: My Great Prophet",
+    "guideBook4": "Guide: My Wonderful World",
+    "guideBook5": "Guide: My Pure Heart"
+  },
+  "platforms": {
+    "hub": {
+      "title": "Digital Platforms Hub",
+      "description": "An integrated ecosystem of educational tools. One account unlocks limitless possibilities for learning, creating, and reading."
+    }
+  },
+  "services": {
+    "title": "Our Educational Services",
+    "description": "Integrated solutions for institutions and individuals to elevate Arabic education."
+  },
+  "legal": {
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms & Conditions",
+    "lastUpdated": "Last Updated: January 2026",
+    "privacyContent": "At CASP Education, we prioritize your privacy. We collect only the data necessary to provide our educational services at the best possible quality.",
+    "termsContent": "By using our website and platform, you agree to comply with the following terms and conditions that ensure a safe and beneficial educational experience for everyone."
+  },
+  "footer": {
+    "about": "About Us",
+    "contact": "Contact Us",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved",
+    "description": "Your trusted educational partner for excellence in Arabic learning",
+    "links": "Quick Links",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "newsletterTitle": "Join Our Newsletter",
+    "newsletterPlaceholder": "Your email address",
+    "subscribe": "Subscribe"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email address",
+    "phone": "Phone Number",
+    "message": "Message",
+    "submit": "Submit",
+    "thanks": "Thank you for contacting us! We will get back to you soon.",
+    "placeholderFirstName": "Enter your first name",
+    "placeholderLastName": "Enter your last name",
+    "placeholderEmail": "Enter your email",
+    "placeholderPhone": "Enter your phone number",
+    "placeholderMessage": "How can we help you?",
+    "officeTitle": "Our Office",
+    "officeAddress": "Montreal, Canada",
+    "emailTitle": "Email Support",
+    "phoneTitle": "Direct Line"
+  },
+  "auth": {
+    "signInTitle": "Welcome Back",
+    "signInSubtitle": "Sign in to access your educational dashboard and courses",
+    "signUpTitle": "Create Account",
+    "signUpSubtitle": "Join our platform and start your Arabic learning journey today",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot Password?",
+    "signInButton": "Sign In",
+    "signUpButton": "Create Account",
+    "or": "OR",
+    "noAccount": "Not a member yet?",
+    "alreadyAccount": "Already have an account?",
+    "agreeTerms": "By creating an account you agree with our",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "invalidCredentials": "Invalid email or password",
+    "loginSuccess": "Login successful",
+    "registerSuccess": "Successfully registered",
+    "invalidEmail": "Please enter a valid email",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "passwordLength": "Password must be at least 6 characters",
+    "passwordRegEx": "Password must contain uppercase, lowercase, and number",
+    "nameRequired": "Name is required",
+    "nameLength": "Name must be at least 2 characters",
+    "firstNameLabel": "First Name",
+    "firstNamePlaceholder": "Enter your first name",
+    "lastNameLabel": "Last Name",
+    "lastNamePlaceholder": "Enter your last name",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "countryLabel": "Country",
+    "countryPlaceholder": "Select your country",
+    "signedInAs": "Signed in as",
+    "adminDashboard": "Admin Dashboard",
+    "signOut": "Sign Out"
+  },
+  "store": {
+    "title": "Educational Store",
+    "description": "Your premier destination for reliable educational resources. Books, software, and tools for an enjoyable learning journey.",
+    "shopNow": "Shop Now",
+    "bundleOffer": "Back to School Bundle",
+    "bundleDesc": "Get 20% off when buying the full series + school bag.",
+    "viewBundles": "View Offers",
+    "readBtn": "Read Book",
+    "downloadBtn": "Download PDF",
+    "close": "Close",
+    "explore": "Explore Series",
+    "viewDetails": "View Details",
+    "levels": {
+      "growthTitle": "Discover the Levels",
+      "R": "Kindergarten",
+      "P": "Preparatory",
+      "1": "Grade 1",
+      "2": "Grade 2",
+      "3": "Grade 3",
+      "4": "Grade 4",
+      "5": "Grade 5",
+      "6": "Grade 6",
+      "7": "Grade 7",
+      "8": "Grade 8",
+      "9": "Grade 9",
+      "10": "Grade 10"
+    },
+    "alMufid": {
+      "title": "Al-Mufid Series",
+      "description": "Your practical companion for mastering Arabic. A series focusing on the functional use of language in daily life and study."
+    },
+    "alShamil": {
+      "title": "Al-Shamil Series",
+      "description": "A robust academic curriculum for teaching Arabic to non-native speakers, designed for universities and specialized centers."
+    },
+    "alWafi": {
+      "title": "Al-Wafi Series",
+      "description": "The comprehensive reference for the Arabic student. Full coverage of grammar, morphology, and rhetoric in a modern style.",
+      "exercises": "Intensive Exercises",
+      "exercisesDesc": "Thousands of questions and exercises to consolidate information."
+    },
+    "gardenOfArabic": {
+      "title": "Garden of Arabic",
+      "description": "A comprehensive educational series that takes the student on an enjoyable growth journey, from planting the seeds of letters to harvesting the fruits of eloquence and expression.",
+      "exercisesTitle": "Garden of Arabic Exercises",
+      "exercisesDesc": "A group of exercises and activities to enhance learning."
+    },
+    "qawaedMobasta": {
+      "title": "Simplified Grammar",
+      "description": "Goodbye to grammar complexities. We present Arabic grammar in a smart visual style and mind maps that make understanding intuitive."
+    },
+    "tareeqAlMuneerAr": {
+      "title": "Tareeq Al-Muneer",
+      "description": "A specialized methodology for teaching Arabic reading and writing, leading the student from illiteracy to fluency."
+    },
+    "tareeqAlMuneerFr": {
+      "title": "Tareeq Al-Muneer (French Version)",
+      "description": "A curriculum designed specifically for French-speaking students, combining Arabic grammar precision with French style explanation."
+    },
+    "tareeqAlMuneerEn": {
+      "title": "Tareeq Al Muneer (English)",
+      "description": "The comprehensive guide to learning Arabic for English speakers."
+    },
+    "hidayah": {
+      "title": "Hidayah Curriculum",
+      "description": "An integrated Islamic educational series aiming to build balanced character and plant noble values in youth."
+    },
+    "hidayahFr": {
+      "title": "Hidayah Curriculum (French)",
+      "description": "An integrated Islamic curriculum for French speakers, linking authentic Islamic values to the child's European reality."
+    },
+    "hidayahEn": {
+      "title": "Hidayah Curriculum (English)",
+      "description": "An integrated Islamic curriculum for English speakers. Connecting authentic values with daily life in the West."
+    },
+    "theHappyMuslim": {
+      "title": "The Happy Muslim",
+      "description": "A fun educational series aiming to build the Muslim child's character by planting values of happiness, optimism, and love of good."
+    }
+  },
+  "admin": {
+    "close": "Close",
+    "dashboard": "Dashboard",
+    "overview": "Overview",
+    "welcome": "Welcome back to the admin dashboard.",
+    "users": "Users",
+    "accessCodes": "Access Codes",
+    "exitAdmin": "Exit Admin",
+    "totalUsers": "Total Users",
+    "totalCodes": "Total Access Codes",
+    "activeCodes": "Active Codes",
+    "quickActions": "Quick Actions",
+    "addUser": "Add User",
+    "generateCode": "Generate Code",
+    "systemStatus": "System Status",
+    "dbOptimized": "Database Optimized",
+    "backupsActive": "Backups Active",
+    "every24h": "Every 24h",
+    "vsLastMonth": "vs last month",
+    "newThisWeek": "new this week",
+    "activeRate": "active rate",
+    "search": "Search...",
+    "searchCodeOrEmail": "Search access code, email, name...",
+    "userManagement": "User Management",
+    "manageUsersDesc": "Manage users and their access roles.",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "accessCode": "Access Code",
+    "assignNew": "Assign New",
+    "created": "Created",
+    "actions": "Actions",
+    "promote": "Promote",
+    "demote": "Demote",
+    "deleteUser": "Delete User",
+    "accessCodesDesc": "Generate and manage access keys for the platform.",
+    "assignedTo": "Assigned To",
+    "validity": "Validity",
+    "expires": "Expires",
+    "status": "Status",
+    "deleteCode": "Delete Code",
+    "used": "Used",
+    "expired": "Expired",
+    "active": "Active",
+    "generateAccessCode": "Generate Access Code",
+    "createTokensDesc": "Create new access tokens for users.",
+    "validityPeriod": "Validity Period",
+    "assignToEmail": "Assign to Email (Optional)",
+    "generating": "Generating...",
+    "newCodeGenerated": "New Access Code Generated",
+    "saveCodeWarning": "Save this code now, it won't be shown again.",
+    "loading": "Loading...",
+    "noAvailableCodes": "No available codes",
+    "assignCode": "Assign Code",
+    "noRawCode": "No Raw Code",
+    "hideCode": "Hide Code",
+    "showCode": "Show Code",
+    "days": "days",
+    "unassigned": "Unassigned",
+    "previous": "Previous",
+    "next": "Next",
+    "itemsPerPage": "Items per page",
+    "total": "Total",
+    "riyadaCodesTitle": "Riyada Access Codes",
+    "specialAccess": "Special Access",
+    "riyadaCodesDesc": "Manage universal access codes specifically distributed for the Riyada book collection.",
+    "noRiyadaCodes": "No Riyada codes have been generated yet.",
+    "riyadaGeneratorTitle": "Riyada Access Code Generator",
+    "special": "Special",
+    "riyadaGeneratorDesc": "Generate access codes specifically for the entire Riyada book series.",
+    "duration1Day": "1 Day",
+    "duration2Days": "2 Days",
+    "duration1Week": "1 Week",
+    "duration10Days": "10 Days",
+    "duration30Days": "30 Days",
+    "duration1Year": "1 Year",
+    "riyadaCodeDistributeDesc": "Distribute this code to allow access to Riyada series without an email registration."
+  },
+  "academy": {
+    "title": "Training Academy",
+    "subtitle": "Explore our educational library of video lessons and professional training.",
+    "badge": "Educational Academy",
+    "educatorZone": "Educator Zone",
+    "exploreVideos": "Explore Videos",
+    "videoDesc": "Enhance your skills with high-quality video content.",
+    "watchNow": "Watch Now",
+    "video1Title": "Professional Introduction",
+    "video2Title": "Advanced Training Lesson",
+    "video3Title": "Comprehensive User Guide"
+  }
+}

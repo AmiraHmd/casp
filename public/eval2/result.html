@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleRes.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="titre">المركز العربيّ للخدمات التّربويّة – بكندا</div>
+        <div id="logo"></div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="bienvenue">شكرًا على قيامك بهذا الاختبار لتحديد مستواك في اللّغة العربيّة للنّاطقين بغيرها.
+            </div>
+        </div>
+        <div class="nom">الاسم والكنية (اللّقب): <span id="name"> ........ </span></div>
+        <div class="contenue">
+            <div class="ligne">
+                <div class="valeur">زمن الإجابات:</div>
+                <div class="value"><span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>
+                </div>
+            </div>
+            <div class="ligne">
+                <div class="valeur">عدد الأسئلة:</div>
+                <div class="value">100</div>
+            </div>
+            <div class="ligne">
+                <div class="valeur">الإجابات الصّحيحة:</div>
+                <div class="value" id="correctAns">0</div>
+            </div>
+            <div class="ligne">
+                <div class="valeur">تحديد المستوى:</div>
+                <div class="value" id="level"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="livre">
+            <div class="livreElec" onclick="window.location.href = 'https://qalamnet.com/dashboard-fr/memberships';"> شراء النّسخة الإلكترونية</div>
+            <div class="livrePap" onclick="window.location.href = 'https://caspeducation.com/%d8%a7%d9%84%d9%83%d8%aa%d8%a8-%d8%a7%d9%84%d9%88%d8%b1%d9%82%d9%8a%d8%a9/';">شراء النّسخة الورقيّة</div>
+        </div>
+    </footer>
+    <script src="scriptRes.js"></script>
+    <script src="cmptFinal.js"></script>
+</body>
+</html>

@@ -1,0 +1,1119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+
+    width: 95%;
+    height: 18%;
+    margin: auto;
+    display: flex;
+}
+
+.headline {
+
+    width: 95%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titlepart {
+    width: 44%;
+    height: 90%;
+    text-align: center;
+    display: flex;
+}
+
+#logo {
+    width: 8%;
+    height: 100%;
+    background-image: url(image/logo.png);
+    background-size: 100% 100%;
+}
+
+#titre {
+    width: 93%;
+    height: 93%;
+    background-image: url(image/bgtitle.png);
+    background-size: 100% 100%;
+    font-size: 5vh;
+    color: green;
+    font-family: 'Lateef', cursive;
+    line-height: 1.3em;
+}
+
+.traduction {
+    width: 20%;
+    height: 90%;
+    background-image: url(image/bgtrad.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trd {
+    width: 22%;
+    height: 75%;
+    background-image: url(image/trd.png);
+    background-size: 100% 100%;
+    color: #023e8a;
+    margin-top: 3%;
+    font-size: 2.8vh;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 2ms;
+    line-height: 2.1em;
+}
+
+#Al:active {
+    transform: translateY(5px);
+}
+
+#En:active {
+    transform: translateY(5px);
+}
+
+#Fr:active {
+    transform: translateY(5px);
+}
+
+#Tr:active {
+    transform: translateY(5px);
+}
+
+main {
+    margin: auto;
+    width: 100%;
+    height: 65%;
+}
+
+.question {
+    width: 90%;
+    height: 20%;
+    margin: auto;
+
+}
+
+.questArab {
+    width: 46%;
+    height: 66%;
+    color: black;
+    font-size: 5vh;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+#questArab1 {
+    background-image: url(image/bgquest.png);
+    background-size: 100% 100%;
+}
+#questArab2 {
+    background-image: url(image/bgquest4.png);
+    background-size: 100% 100%;
+}
+#questArab3 {
+    background-image: url(image/bgquest11.png);
+    background-size: 100% 100%;
+}
+#questArab4 {
+    background-image: url(image/bgquest0.png);
+    background-size: 100% 100%;
+}
+#questArab5 {
+    background-image: url(image/bgquest10.png);
+    background-size: 100% 100%;
+}
+#questArab6 {
+    background-image: url(image/bgquest12.png);
+    background-size: 100% 100%;
+}
+#questArab7 {
+    background-image: url(image/bgquest8.png);
+    background-size: 100% 100%;
+}
+#questArab8 {
+    background-image: url(image/bgquest5.png);
+    background-size: 100% 100%;
+}
+#questArab9 {
+    background-image: url(image/bgquest1.png);
+    background-size: 100% 100%;
+}
+#questArab10 {
+    background-image: url(image/bgquest3.png);
+    background-size: 100% 100%;
+}
+.questTrad {
+    width: 65%;
+    height: 45%;
+    float: left;
+    color: #e3007b;
+    font-size: 2.5vh;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    direction: ltr;
+}
+
+#German, #English, #Turkish, #French {
+    display: none;
+}
+
+.exercice {
+    width: 70%;
+    height: 83%;
+    margin: auto;
+}
+
+.ligne1{
+    width:90%;
+    height: 30%;
+    margin: auto;
+}
+.part {
+    width: 67%;
+    height: 46%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.num {
+    background-image: url(image/alph.png);
+    background-size: 100% 100%;
+    width: 7%;
+    height: 38%;
+    font-size: 4.5vh;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    color: black;
+    line-height: 1.2em;
+}
+.alphabet {
+    background-image: url(image/bgalph.png);
+    background-size: 100% 100%;
+    width: 15%;
+    height: 93%;
+    font-size: 6vh;
+    line-height: 0.9em;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.alphabet:active {
+    transform: translateY(5px);
+}
+#alph5,#alph6{
+    line-height: 0.7em; 
+}
+#alph7{
+    line-height: 1.4em; 
+}
+#alph8{
+    line-height: 1.2em; 
+}
+#alph9{
+    line-height: 1em; 
+}
+.ligne2 {
+    width: 35%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.audio {
+    background-image: url(image/volume.png);
+    background-size: 100% 100%;
+    width: 23%;
+    height: 66%;
+    margin-top: 7%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.audio:active {
+    transform: translateY(5px);
+}
+.mot {
+    width: 50%;
+    height: 76%;
+    font-size: 7vh;
+    font-family: 'Lateef', cursive;
+    color: black;
+    margin-top: 1%;
+}
+.ligne3 {
+    width: 69%;
+    height: 52%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.image1 {
+    background-image: url(image/cow.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+
+.image2 {
+    background-image: url(image/apple.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image3 {
+    background-image: url(image/corn.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+
+.image4 {
+    background-image: url(image/bear.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image5 {
+    background-image: url(image/pomegrate.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image6 {
+    background-image: url(image/laptop.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+
+.image7 {
+    background-image: url(image/bread.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+
+.image8 {
+    background-image: url(image/clock.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+
+.image9 {
+    background-image: url(image/bird.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+
+.image10 {
+    background-image: url(image/buterfly.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+
+.image11 {
+    background-image: url(image/banana.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+
+.image12 {
+    background-image: url(image/hand.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image13 {
+    background-image: url(image/book.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image14 {
+    background-image: url(image/lion.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image15 {
+    background-image: url(image/gazelle.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image16 {
+    background-image: url(image/rocket.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image17 {
+    background-image: url(image/orange.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image18 {
+    background-image: url(image/bike.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image19 {
+    background-image: url(image/flower.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image20 {
+    background-image: url(image/lamp.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image21 {
+    background-image: url(image/roster.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image22 {
+    background-image: url(image/stairs.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image23 {
+    background-image: url(image/elephant.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image24 {
+    background-image: url(image/light.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image25 {
+    background-image: url(image/tv\ \(1\).png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image26 {
+    background-image: url(image/apple.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image27 {
+    background-image: url(image/letter.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image28 {
+    background-image: url(image/wolf.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image29 {
+    background-image: url(image/handd.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image30 {
+    background-image: url(image/phone.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+.image31 {
+    background-image: url(image/pen.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 97%;
+}
+footer {
+    width: 21%;
+    height: 9%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+}
+
+.alertText {
+    width: 17%;
+    height: 80%;
+    margin: auto;
+    background-image: url(image/sweetAlert.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+    transition: width 2s, height 2s, transform 2s, box-shadow 2s;
+}
+
+.alertText:hover {
+    box-shadow: 10px 10px 5px lightblue;
+    transform: translateY(5px);
+}
+
+#suivant {
+    width: 37%;
+    height: 65%;
+    margin: auto;
+    background-image: url(image/forward.png);
+    background-size: 100% 100%;
+    font-size: 3vh;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+
+#suivant:active {
+    transform: translateY(5px);
+}
+
+.compteur {
+    background-color: rgba(226, 43, 195, 0.479);
+    float: left;
+    width: 10%;
+    height: 10%;
+    margin-left: 3%;
+}
+.time{
+    width: 80%;
+    height: 32%;
+    margin: auto;
+    text-align: center;
+}
+.cmpt{
+    width: 90%;
+    height: 47%;
+    margin: auto;
+    color:white;
+    font-size: 5vh;
+    line-height: 1.2em;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+}
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 780px) {
+    .questArab {
+        width: 46%;
+        height: 66%;
+        color: black;
+        font-size: 5vh;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        line-height: 1.8em;
+    }
+    footer {
+        width: 21%;
+        height: 9%;
+        margin: auto;
+        margin-top: 4%;
+        display: flex;
+    }
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .titlepart {
+        width: 46%;
+        height: 90%;
+        text-align: center;
+        display: flex;
+    }
+    #logo {
+        width: 10%;
+        height: 100%;
+        background-image: url(image/logo.png);
+        background-size: 100% 100%;
+    }
+    .traduction {
+        width: 27%;
+        height: 90%;
+        background-image: url(image/bgtrad.png);
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .trd {
+    width: 23%;
+    height: 75%;
+    background-image: url(image/trd.png);
+    background-size: 100% 100%;
+    color: #023e8a;
+    margin-top: 3%;
+    font-size: 2.8vh;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 2ms;
+    line-height: 2.1em;
+}
+.question {
+    width: 90%;
+    height: 24%;
+    margin: auto;
+}
+.questArab {
+    width: 54%;
+    height: 56%;
+    color: black;
+    font-size: 5vh;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    line-height: 1.9em;
+}
+.questTrad {
+    width: 72%;
+    height: 45%;
+    float: left;
+    color: #e3007b;
+    font-size: 2.5vh;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    direction: ltr;
+    line-height: 3.5em;
+}
+.num {
+    background-image: url(image/alph.png);
+    background-size: 100% 100%;
+    width: 10%;
+    height: 41%;
+    font-size: 4.5vh;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    color: black;
+    line-height: 1.2em;
+}
+.part {
+    width: 82%;
+    height: 46%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.alphabet {
+    background-image: url(image/bgalph.png);
+    background-size: 100% 100%;
+    width: 14%;
+    height: 93%;
+    font-size: 6vh;
+    line-height: 0.9em;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+audio {
+    background-image: url(image/volume.png);
+    background-size: 100% 100%;
+    width: 25%;
+    height: 73%;
+    margin-top: 7%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.mot {
+    width: 64%;
+    height: 92%;
+    font-size: 7vh;
+    font-family: 'Lateef', cursive;
+    color: black;
+    margin-top: 1%;
+}
+.ligne3 {
+    width: 82%;
+    height: 52%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+footer {
+    width: 23%;
+    height: 9%;
+    margin: auto;
+    margin-top: 6%;
+    display: flex;
+}
+#suivant {
+    width: 47%;
+    height: 65%;
+    margin: auto;
+    background-image: url(image/forward.png);
+    background-size: 100% 100%;
+    font-size: 3vh;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .titlepart {
+        width: 52%;
+        height: 90%;
+        text-align: center;
+        display: flex;
+    }
+    #titre {
+        width: 94%;
+        height: 93%;
+        background-image: url(image/bgtitle.png);
+        background-size: 100% 100%;
+        font-size: 4.5vh;
+        color: green;
+        font-family: 'Lateef', cursive;
+        line-height: 1.5em;
+    }
+    .traduction {
+        width: 31%;
+        height: 90%;
+        background-image: url(image/bgtrad.png);
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #logo {
+        width: 11%;
+        height: 97%;
+        background-image: url(image/logo.png);
+        background-size: 100% 100%;
+        margin-left: 4%;
+    }
+    .questArab {
+        width: 66%;
+        height: 57%;
+        color: black;
+        font-size: 5vh;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        line-height: 1.8em;
+    }
+    .questTrad {
+        width: 86%;
+        height: 45%;
+        float: left;
+        color: #e3007b;
+        font-size: 2.5vh;
+        font-family: Verdana, sans-serif;
+        font-weight: normal;
+        direction: ltr;
+        line-height: 3.5em;
+    }
+    .num {
+        background-image: url(image/alph.png);
+        background-size: 100% 100%;
+        width: 12%;
+        height: 41%;
+        font-size: 4.5vh;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        color: black;
+        line-height: 1.2em;
+        margin-top: 3%;
+    }
+    .alphabet {
+        background-image: url(image/bgalph.png);
+        background-size: 100% 100%;
+        width: 19%;
+        height: 100%;
+        font-size: 6vh;
+        line-height: 0.9em;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        color: blue;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+    .part {
+        width: 82%;
+        height: 49%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .ligne2 {
+        width: 49%;
+        height: 20%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    .audio {
+        background-image: url(image/volume.png);
+        background-size: 100% 100%;
+        width: 23%;
+        height: 66%;
+        margin-top: 10%;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+    .ligne3 {
+        width: 93%;
+        height: 53%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    footer {
+        width: 28%;
+        height: 8%;
+        margin: auto;
+        margin-top: 9%;
+        display: flex;
+    }
+}    
+@media (max-width: 350px) {
+    #titre {
+        width: 95%;
+        height: 93%;
+        background-image: url(image/bgtitle.png);
+        background-size: 100% 100%;
+        font-size: 3.5vh;
+        color: green;
+        font-family: 'Lateef', cursive;
+        line-height: 1.9em;
+    }
+    #logo {
+        width: 12%;
+        height: 85%;
+        background-image: url(image/logo.png);
+        background-size: 100% 100%;
+        margin-left: 4%;
+        /* margin-top: 0%; */
+    }
+    .trd {
+        width: 25%;
+        height: 75%;
+        background-image: url(image/trd.png);
+        background-size: 100% 100%;
+        color: #023e8a;
+        margin-top: 4%;
+        font-size: 2.6vh;
+        font-family: Verdana, sans-serif;
+        font-weight: normal;
+        text-align: center;
+        cursor: pointer;
+        transition-duration: 2ms;
+        line-height: 2.1em;
+    }
+    .traduction {
+        width: 34%;
+        height: 85%;
+        background-image: url(image/bgtrad.png);
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .questArab {
+        width: 75%;
+        height: 57%;
+        color: black;
+        font-size: 4.5vh;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        line-height: 1.8em;
+    }
+    .questTrad {
+        width: 99%;
+        height: 45%;
+        float: left;
+        color: #e3007b;
+        font-size: 2.1vh;
+        font-family: Verdana, sans-serif;
+        font-weight: normal;
+        direction: ltr;
+        line-height: 3.5em;
+    }
+    .num {
+        background-image: url(image/alph.png);
+        background-size: 100% 100%;
+        width: 15%;
+        height: 39%;
+        font-size: 4.5vh;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        color: black;
+        line-height: 1.2em;
+        margin-top: 1%;
+    }
+    .part {
+        width: 96%;
+        height: 49%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .alphabet {
+        background-image: url(image/bgalph.png);
+        background-size: 100% 100%;
+        width: 21%;
+        height: 100%;
+        font-size: 6vh;
+        line-height: 0.9em;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        color: blue;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+    .ligne2 {
+        width: 60%;
+        height: 20%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+    }     
+    .audio {
+        background-image: url(image/volume.png);
+        background-size: 100% 100%;
+        width: 26%;
+        height: 67%;
+        margin-top: 10%;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+    .mot {
+        width: 63%;
+        height: 92%;
+        font-size: 7vh;
+        font-family: 'Lateef', cursive;
+        color: black;
+        margin-top: 2%;
+    }
+    .image1 {
+        background-image: url(image/cow.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    
+    .image2 {
+        background-image: url(image/apple.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image3 {
+        background-image: url(image/corn.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    
+    .image4 {
+        background-image: url(image/bear.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image5 {
+        background-image: url(image/pomegrate.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image6 {
+        background-image: url(image/laptop.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    
+    .image7 {
+        background-image: url(image/bread.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    
+    .image8 {
+        background-image: url(image/clock.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    
+    .image9 {
+        background-image: url(image/bird.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    
+    .image10 {
+        background-image: url(image/buterfly.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    
+    .image11 {
+        background-image: url(image/banana.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    
+    .image12 {
+        background-image: url(image/hand.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image13 {
+        background-image: url(image/book.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image14 {
+        background-image: url(image/lion.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image15 {
+        background-image: url(image/gazelle.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image16 {
+        background-image: url(image/rocket.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image17 {
+        background-image: url(image/orange.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image18 {
+        background-image: url(image/bike.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image19 {
+        background-image: url(image/flower.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image20 {
+        background-image: url(image/lamp.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image21 {
+        background-image: url(image/roster.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image22 {
+        background-image: url(image/stairs.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image23 {
+        background-image: url(image/elephant.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image24 {
+        background-image: url(image/light.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image25 {
+        background-image: url(image/tv\ \(1\).png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image26 {
+        background-image: url(image/apple.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image27 {
+        background-image: url(image/letter.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image28 {
+        background-image: url(image/wolf.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image29 {
+        background-image: url(image/handd.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image30 {
+        background-image: url(image/phone.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    .image31 {
+        background-image: url(image/pen.png);
+        background-size: 100% 100%;
+        width: 91%;
+        height: 92%;
+    }
+    #suivant {
+        width: 57%;
+        height: 65%;
+        margin: auto;
+        background-image: url(image/forward.png);
+        background-size: 100% 100%;
+        font-size: 3vh;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+}

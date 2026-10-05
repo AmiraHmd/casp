@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <audio id="s1">
+        <source src="audio/lion.mp3">
+    </audio>
+
+    <header>
+        <div class="headline">
+            <div class="titlepart">
+                <div id="titre">تحديد مستوى: المرحلة الأولى</div>
+            </div>
+            <div id="logo"></div>
+            <div class="traduction">
+                <div class="trd" id="Tr" onclick="traduire('Turkish')">Tr</div>
+                <div class="trd" id="Al" onclick="traduire('German')">Al</div>
+                <div class="trd" id="Fr" onclick="traduire('French')">Fr</div>
+                <div class="trd" id="En" onclick="traduire('English')">En</div>
+            </div>
+    </header>
+    <main>
+        <div class="question">
+            <div class="questArab" id="questArab1">أَسْتَمِعُ، ثُمَّ أُحَرِّكُ حُرُوفَ الْكَلِمَةِ:</div>
+            <div class="questTrad">
+                <div id="initial"> J'écoute, puis les formes de lettres du mot:</div>
+                <div id="French"> J'écoute, puis les formes de lettres du mot:</div>
+                <div id="English"> I listen, then the letter forms of the word:</div>
+                <div id="Turkish"> Dinliyorum, sonra kelimenin harf formları:</div>
+                <div id="German"> Ich höre ,dann bilden sich die Buchstaben des Wortes:</div>
+            </div>
+        </div>
+        <div class="compteur" style="display: none;">
+            <div class="time">
+                <div class="cmpt">
+                    <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>
+                </div>
+            </div>
+        </div>
+        <div class="exercice">
+            <div class="num">79</div>
+            <div class="partie1">
+                <div class="alphabet">
+                    <div class="l1">
+                        <div class="alph" id="a1" onclick="cliquer('a1')">َ</div>
+                        <div class="alph" id="a2" onclick="cliquer('a2')">ً</div>
+                        <div class="alph" id="a3" onclick="cliquer('a3')">ُ</div>
+                        <div class="alph" id="a4" onclick="cliquer('a4')">ٌ</div>
+                    </div>
+                    <div class="l2">
+                        <div class="alph" id="a5" onclick="cliquer('a5')">ِ</div>
+                        <div class="alph" id="a6" onclick="cliquer('a6')">ٍ</div>
+                        <div class="alph" id="a7" onclick="cliquer('a7')">ّ</div>
+                        <div class="alph" id="a8" onclick="cliquer('a8')">ْ</div>
+                    </div>
+                    <div class="l3">
+
+                        <div class="alph" id="x" onclick="remove()">X</div>
+                    </div>
+                </div>
+                <div class="part1">
+                    <div class="audio" id="audio1"></div>
+                    <div class="word">أ<span class="ltt" id="lt1" onclick="selectCase('lt1')"></span>س<span class="ltt"
+                            id="lt2" onclick="selectCase('lt2')"></span>د<span class="ltt" id="lt2"
+                            onclick="selectCase('lt2')"></span>
+                    </div>
+                </div>
+
+                <div class="part2">
+                    <div class="image1"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="suivant" onclick='verification()'></div>
+    </footer>
+    <script src="script78.js"></script>
+    <script src="compteur.js"></script>
+</body>
+
+</html>

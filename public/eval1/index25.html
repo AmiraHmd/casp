@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <audio id="s1">
+        <source src="audio/appel2.mp3">
+    </audio>
+
+    <header>
+        <div class="headline">
+            <div class="titlepart">
+                <div id="titre">تحديد مستوى: المرحلة الأولى</div>
+            </div>
+            <div id="logo"></div>
+            <div class="traduction">
+                <div class="trd" id="Tr" onclick="traduire('Turkish')">Tr</div>
+                <div class="trd" id="Al" onclick="traduire('German')">Al</div>
+                <div class="trd" id="Fr" onclick="traduire('French')">Fr</div>
+                <div class="trd" id="En" onclick="traduire('English')">En</div>
+            </div>
+    </header>
+    <main>
+        <div class="question">
+            <div class="questArab" id="questArab1">أَسْتَمِعُ، ثُمَّ أُكْمِلُ بِالْحَرْفِ الْمُنَاسِبِ:</div>
+            <div class="questTrad">
+                <div id="initial"> J'ecoute، puis je complete par la lettre suivant:</div>
+                <div id="French"> J'ecoute، puis je complete par la lettre suivant:</div>
+                <div id="English"> I listen then I complete with the following letter:</div>
+                <div id="Turkish"> Dinliyorum, ardından aşağıdaki harfi tamamlıyorum:</div>
+                <div id="German"> Ich höre zu und ergänze mit folgendem Brief:</div>
+            </div>
+        </div>
+        <div class="compteur" style="display: none;">
+            <div class="time">
+                <div class="cmpt">
+                    <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>
+                </div>
+            </div>
+        </div>
+        <div class="exercice">
+            <div class="ligne1">
+                <div class="num">26</div>
+                <div class="part">
+                <div class="alphabet" id="alph1" onclick="cliquer('alph1')">ت</div>
+                <div class="alphabet" id="alph2" onclick="cliquer('alph2')">ط</div>
+            </div>
+            </div>
+            <div class="ligne2">
+                <div class="audio" id="audio1"></div>
+                <div class="mot"><span class="ltt">...</span>ـفَّاحَةٌ</div>
+            </div>
+            <div class="ligne3">
+                <div class="image26"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="suivant" onclick='verification()'></div>
+    </footer>
+    <script src="script25.js"></script>
+    <script src="compteur.js"></script>
+</body>
+
+</html>

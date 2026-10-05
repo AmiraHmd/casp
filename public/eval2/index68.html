@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <audio id="audio69">
+        <source src="audio/audio69.mp3">
+    </audio>
+    <header>
+        <div class="headline">
+            <div class="titlepart">
+                <div id="titre">تحديد المستوى: المرحلة الثانية</div>
+            </div>
+            <div id="logo"></div>
+            <div class="traduction">
+                <div class="trd" id="Tr" onclick="traduire('Turkish')">Tr</div>
+                <div class="trd" id="Al" onclick="traduire('German')">Al</div>
+                <div class="trd" id="Fr" onclick="traduire('French')">Fr</div>
+                <div class="trd" id="En" onclick="traduire('English')">En</div>
+            </div>
+    </header>
+    <main>
+        <div class="question">
+            <div class="questArab" id="questArab7">أَخْتَارُ الْمَعْنَى الصَّحِيحَ لِكُلِّ كَلِمَةٍ مِمَّا يَأْتِي:</div>
+            <div class="questTrad">
+                <div id="initial">Je choisis le sens correct de chaque mot:</div>
+                <div id="French">Je choisis le sens correct de chaque mot:</div>
+                <div id="English">I choose the right meaning for every word:</div>
+                <div id="Turkish">Gelen her kelimenin doğru anlamını seçiyorum:</div>
+                <div id="German">Ich wähle für jedes Wort die richtige Bedeutung:</div>
+            </div>
+        </div>
+        <div class="compteur" style="display: none;">
+            <div class="time">
+                <div class="cmpt">
+                    <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>
+                </div>
+            </div>
+        </div>
+        <div class="exercice">
+            <div class="son" id="s2"></div>
+            <div class="container"  id="container7">
+                <div class="questA"  id="questA7">69- ظَـــلَّ</div>
+                <div class="content">
+                    <div class="ligne">
+                        <div class="phrspart">
+                            <div class="num" id="rep1" onclick="cliquer('rep1')"></div>
+                            <div class="phrs">بَقِيَ </div>
+                        </div>
+                    </div>
+                    <div class="ligne">
+                        <div class="phrspart">
+                            <div class="num" id="rep2" onclick="cliquer('rep2')"></div>
+                            <div class="phrs">ابتعدَ </div>
+                        </div>
+                    </div>
+                    <div class="ligne">
+                        <div class="phrspart">
+                            <div class="num" id="rep3" onclick="cliquer('rep3')"></div>
+                            <div class="phrs">وَقَفَ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="suivant" onclick='verification()'></div>
+    </footer>
+    <script src="script68.js"></script>
+    <script src="compteur.js"></script>
+</body>
+</html>

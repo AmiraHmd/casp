@@ -1,0 +1,845 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+
+    width: 95%;
+    height: 18%;
+    margin: auto;
+    display: flex;
+}
+
+.headline {
+
+    width: 95%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titlepart {
+    width: 44%;
+    height: 90%;
+    text-align: center;
+    display: flex;
+}
+
+#logo {
+    width: 8%;
+    height: 100%;
+    background-image: url(image/logo.png);
+    background-size: 100% 100%;
+}
+
+#titre {
+    width: 93%;
+    height: 93%;
+    background-image: url(image/bgtitle.png);
+    background-size: 100% 100%;
+    font-size: 5vh;
+    color: green;
+    font-family: 'Lateef', cursive;
+    line-height: 1.3em;
+}
+
+.traduction {
+    width: 20%;
+    height: 90%;
+    background-image: url(image/bgtrad.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trd {
+    width: 22%;
+    height: 75%;
+    background-image: url(image/trd.png);
+    background-size: 100% 100%;
+    color: #023e8a;
+    margin-top: 3%;
+    font-size: 2.8vh;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 2ms;
+    line-height: 2.1em;
+}
+
+#Al:active {
+    transform: translateY(5px);
+}
+
+#En:active {
+    transform: translateY(5px);
+}
+
+#Fr:active {
+    transform: translateY(5px);
+}
+
+#Tr:active {
+    transform: translateY(5px);
+}
+
+main {
+    margin: auto;
+    width: 100%;
+    height: 65%;
+}
+
+.question {
+    width: 90%;
+    height: 25%;
+    margin: auto;
+}
+
+.questArab {
+    background-image: url(image/bgquest.png);
+    background-size: 100% 100%;
+    width: 64%;
+    height: 57%;
+    color: black;
+    font-size: 5vh;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    line-height: 1.7em;
+}
+#questArab1 {
+    background-image: url(image/bgquest.png);
+    background-size: 100% 100%;
+    width: 78%;
+    height: 57%;
+    color: black;
+    font-size: 5vh;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+#questArab2 {
+    background-image: url(image/bgquest4.png);
+    background-size: 100% 100%;
+}
+#questArab3 {
+    background-image: url(image/bgquest11.png);
+    background-size: 100% 100%;
+}
+#questArab4 {
+    background-image: url(image/bgquest0.png);
+    background-size: 100% 100%;
+}
+#questArab5 {
+    background-image: url(image/bgquest10.png);
+    background-size: 100% 100%;
+}
+#questArab6 {
+    background-image: url(image/bgquest12.png);
+    background-size: 100% 100%;
+}
+#questArab7 {
+    background-image: url(image/bgquest8.png);
+    background-size: 100% 100%;
+}
+#questArab8 {
+    background-image: url(image/bgquest5.png);
+    background-size: 100% 100%;
+}
+#questArab9 {
+    background-image: url(image/bgquest1.png);
+    background-size: 100% 100%;
+}
+#questArab10 {
+    background-image: url(image/bgquest3.png);
+    background-size: 100% 100%;
+}
+.questTrad {
+    width: 80%;
+    height: 45%;
+    float: left;
+    color: #e3007b;
+    font-size: 2.5vh;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    direction: ltr;
+    line-height: 3.7em;
+}
+
+#German, #English, #Turkish, #French {
+    display: none;
+}
+.exercice {
+    width: 70%;
+    height:80%;
+    margin: auto;
+}
+.num {
+    background-image: url(image/alph.png);
+    background-size: 100% 100%;
+    width: 8%;
+    height: 13%;
+    font-size: 4.5vh;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    color: black;
+    line-height: 1.4em;
+}
+
+#alphcol{
+    color: #e3007b;
+}
+.ligne1 {
+    width: 81%;
+    height: 25%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.audio {
+    background-image: url(image/volume.png);
+    background-size: 100% 100%;
+    width: 12%;
+    height: 56%;
+    margin-top: 5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.audio:active {
+    transform: translateY(5px);
+}
+
+.caro {
+    background-image: url(image/caro1.png);
+    background-size: 100% 100%;
+    width: 18%;
+    height: 80%;
+    margin-top: 3.5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.caro:active {
+    transform: translateY(5px);
+}
+.case {
+    background-image: url(image/clv2.png);
+    background-size: 100% 100%;
+    width: 18%;
+    height: 80%;
+    margin-top: 3.5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.case:active {
+    transform: translateY(5px);
+}
+.reponse {
+    background-image: url(image/rep1.png);
+    background-size: 100% 100%;
+    width: 18%;
+    height: 80%;
+    margin-top: 3.5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.reponse:active {
+    transform: translateY(5px);
+}
+.line {
+    background-image: url(image/bgrep5.png);
+    background-size: 100% 100%;
+    width: 18%;
+    height: 80%;
+    margin-top: 3.5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.line:active {
+    transform: translateY(5px);
+}
+.rect {
+    background-image: url(image/bgrep9.png);
+    background-size: 100% 100%;
+    width: 18%;
+    height: 80%;
+    margin-top: 3.5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.rect:active {
+    transform: translateY(5px);
+}
+.mot {
+    background-image: url(image/x.png);
+    background-size: 100% 100%;
+    width: 18%;
+    height: 80%;
+    margin-top: 3.5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.mot:active {
+    transform: translateY(5px);
+}
+.bloc {
+    background-image: url(image/bgrep1.png);
+    background-size: 100% 100%;
+    width: 18%;
+    height: 80%;
+    margin-top: 3.5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.bloc:active {
+    transform: translateY(5px);
+}
+footer {
+    width: 21%;
+    height: 9%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+}
+
+.alertText {
+    width: 17%;
+    height: 80%;
+    margin: auto;
+    background-image: url(image/sweetAlert.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+    transition: width 2s, height 2s, transform 2s, box-shadow 2s;
+}
+
+.alertText:hover {
+    box-shadow: 10px 10px 5px lightblue;
+    transform: translateY(5px);
+}
+
+#suivant {
+    width: 37%;
+    height: 65%;
+    margin: auto;
+    background-image: url(image/forward.png);
+    background-size: 100% 100%;
+    font-size: 3vh;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+
+#suivant:active {
+    transform: translateY(5px);
+}
+
+.compteur {
+    background-color: rgba(226, 43, 195, 0.479);
+    float: left;
+    width: 10%;
+    height: 10%;
+    margin-left: 3%;
+}
+.time{
+    width: 80%;
+    height: 32%;
+    margin: auto;
+    text-align: center;
+}
+.cmpt{
+    width: 90%;
+    height: 47%;
+    margin: auto;
+    color:white;
+    font-size: 5vh;
+    line-height: 1.2em;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+}
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 780px) {
+    .questArab {
+        width: 61%;
+        height: 66%;
+        color: black;
+        font-size: 5vh;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        line-height: 1.9em;
+    }
+    footer {
+        width: 21%;
+        height: 9%;
+        margin: auto;
+        margin-top: 4%;
+        display: flex;
+    }
+    .ligne1 {
+        width: 81%;
+        height: 26%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .titlepart {
+        width: 46%;
+        height: 90%;
+        text-align: center;
+        display: flex;
+    }
+    #logo {
+        width: 10%;
+        height: 100%;
+        background-image: url(image/logo.png);
+        background-size: 100% 100%;
+    }
+    .traduction {
+        width: 27%;
+        height: 90%;
+        background-image: url(image/bgtrad.png);
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .trd {
+    width: 23%;
+    height: 75%;
+    background-image: url(image/trd.png);
+    background-size: 100% 100%;
+    color: #023e8a;
+    margin-top: 3%;
+    font-size: 2.8vh;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 2ms;
+    line-height: 2.1em;
+}
+.question {
+    width: 90%;
+    height: 24%;
+    margin: auto;
+}
+.questArab {
+    width: 76%;
+    height: 66%;
+    color: black;
+    font-size: 5vh;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    line-height: 1.9em;
+}
+.questTrad {
+    width: 89%;
+    height: 45%;
+    float: left;
+    color: #e3007b;
+    font-size: 2.5vh;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    direction: ltr;
+    line-height: 3.7em;
+}
+.num {
+    background-image: url(image/alph.png);
+    background-size: 100% 100%;
+    width: 8%;
+    height: 13%;
+    font-size: 4.5vh;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    color: black;
+    line-height: 0.7em;
+}
+.caro {
+    background-image: url(image/caro1.png);
+    background-size: 100% 100%;
+    width: 23%;
+    height: 89%;
+    margin-top: 3.5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.audio {
+    background-image: url(image/volume.png);
+    background-size: 100% 100%;
+    width: 12%;
+    height: 56%;
+    margin-top: 7%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.case {
+    background-image: url(image/clv2.png);
+    background-size: 100% 100%;
+    width: 23%;
+    height: 89%;
+    margin-top: 3.5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.reponse {
+    background-image: url(image/rep1.png);
+    background-size: 100% 100%;
+    width: 23%;
+    height: 89%;
+    margin-top: 3.5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.line {
+    background-image: url(image/bgrep5.png);
+    background-size: 100% 100%;
+    width: 23%;
+    height: 89%;
+    margin-top: 3.5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.rect {
+    background-image: url(image/bgrep9.png);
+    background-size: 100% 100%;
+    width: 23%;
+    height: 89%;
+    margin-top: 3.5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.mot {
+    background-image: url(image/x.png);
+    background-size: 100% 100%;
+    width: 23%;
+    height: 89%;
+    margin-top: 3.5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+.bloc {
+    background-image: url(image/bgrep1.png);
+    background-size: 100% 100%;
+    width: 23%;
+    height: 89%;
+    margin-top: 3.5%;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+#questArab1 {
+    background-image: url(image/bgquest.png);
+    background-size: 100% 100%;
+    width: 94%;
+    height: 62%;
+    color: black;
+    font-size: 5vh;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    line-height: 1.8em;
+}
+footer {
+    width: 23%;
+    height: 9%;
+    margin: auto;
+    margin-top: 6%;
+    display: flex;
+}
+#suivant {
+    width: 47%;
+    height: 65%;
+    margin: auto;
+    background-image: url(image/forward.png);
+    background-size: 100% 100%;
+    font-size: 3vh;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition-duration: 2ms;
+}
+
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .titlepart {
+        width: 52%;
+        height: 90%;
+        text-align: center;
+        display: flex;
+    }
+    #titre {
+        width: 94%;
+        height: 93%;
+        background-image: url(image/bgtitle.png);
+        background-size: 100% 100%;
+        font-size: 4.5vh;
+        color: green;
+        font-family: 'Lateef', cursive;
+        line-height: 1.5em;
+    }
+    .traduction {
+        width: 31%;
+        height: 90%;
+        background-image: url(image/bgtrad.png);
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #logo {
+        width: 11%;
+        height: 97%;
+        background-image: url(image/logo.png);
+        background-size: 100% 100%;
+        margin-left: 4%;
+    }
+    .questArab {
+        width: 90%;
+        height: 59%;
+        color: black;
+        font-size: 4.5vh;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        line-height: 2em;
+    }
+    .questTrad {
+        width: 99%;
+        height: 45%;
+        float: left;
+        color: #e3007b;
+        font-size: 2.2vh;
+        font-family: Verdana, sans-serif;
+        font-weight: normal;
+        direction: ltr;
+        line-height: 3.7em;
+    }
+    .num {
+        background-image: url(image/alph.png);
+        background-size: 100% 100%;
+        width: 10%;
+        height: 13%;
+        font-size: 4.5vh;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        color: black;
+        line-height: 1.1em;
+    }
+    .caro {
+        background-image: url(image/caro1.png);
+        background-size: 100% 100%;
+        width: 27%;
+        height: 92%;
+        margin-top: 3.5%;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+    .case {
+        background-image: url(image/clv2.png);
+        background-size: 100% 100%;
+        width: 27%;
+        height: 92%;
+        margin-top: 3.5%;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+    .reponse {
+        background-image: url(image/rep1.png);
+        background-size: 100% 100%;
+        width: 26%;
+        height: 86%;
+        margin-top: 3.5%;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+    .line {
+        background-image: url(image/bgrep5.png);
+        background-size: 100% 100%;
+        width: 26%;
+        height: 86%;
+        margin-top: 3.5%;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+    .rect {
+        background-image: url(image/bgrep9.png);
+        background-size: 100% 100%;
+        width: 26%;
+        height: 86%;
+        margin-top: 3.5%;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+    .mot {
+        background-image: url(image/x.png);
+        background-size: 100% 100%;
+        width: 27%;
+        height: 92%;
+        margin-top: 3.5%;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+    .bloc {
+        background-image: url(image/bgrep1.png);
+        background-size: 100% 100%;
+        width: 26%;
+        height: 86%;
+        margin-top: 3.5%;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+    .audio {
+        background-image: url(image/volume.png);
+        background-size: 100% 100%;
+        width: 13%;
+        height: 61%;
+        margin-top: 8%;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+    #questArab1 {
+        background-image: url(image/bgquest.png);
+        background-size: 100% 100%;
+        width: 94%;
+        height: 58%;
+        color: black;
+        font-size: 4vh;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        line-height: 2.1em;
+    }
+    footer {
+        width: 28%;
+        height: 8%;
+        margin: auto;
+        margin-top: 9%;
+        display: flex;
+    }
+}    
+@media (max-width: 350px) {
+    #titre {
+        width: 95%;
+        height: 93%;
+        background-image: url(image/bgtitle.png);
+        background-size: 100% 100%;
+        font-size: 3.5vh;
+        color: green;
+        font-family: 'Lateef', cursive;
+        line-height: 1.9em;
+    }
+    #logo {
+        width: 12%;
+        height: 85%;
+        background-image: url(image/logo.png);
+        background-size: 100% 100%;
+        margin-left: 4%;
+        /* margin-top: 0%; */
+    }
+    .trd {
+        width: 25%;
+        height: 75%;
+        background-image: url(image/trd.png);
+        background-size: 100% 100%;
+        color: #023e8a;
+        margin-top: 4%;
+        font-size: 2.6vh;
+        font-family: Verdana, sans-serif;
+        font-weight: normal;
+        text-align: center;
+        cursor: pointer;
+        transition-duration: 2ms;
+        line-height: 2.1em;
+    }
+    .traduction {
+        width: 34%;
+        height: 85%;
+        background-image: url(image/bgtrad.png);
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .questArab {
+        width: 92%;
+        height: 52%;
+        color: black;
+        font-size: 3.5vh;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        line-height: 2.2em;
+        margin-right: 2%;
+    }
+    .question {
+        width: 93%;
+        height: 24%;
+        margin: auto;
+    }
+    .questTrad {
+        width: 99%;
+        height: 45%;
+        float: left;
+        color: #e3007b;
+        font-size: 1.7vh;
+        font-family: Verdana, sans-serif;
+        font-weight: normal;
+        direction: ltr;
+        line-height: 3.7em;
+    }
+    #suivant {
+        width: 57%;
+        height: 65%;
+        margin: auto;
+        background-image: url(image/forward.png);
+        background-size: 100% 100%;
+        font-size: 3vh;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+    .num {
+        background-image: url(image/alph.png);
+        background-size: 100% 100%;
+        width: 14%;
+        height: 13%;
+        font-size: 4.5vh;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        color: black;
+        line-height: 1.3em;
+    }
+    .ligne1 {
+        width: 98%;
+        height: 25%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .audio {
+        background-image: url(image/volume.png);
+        background-size: 100% 100%;
+        width: 13%;
+        height: 61%;
+        margin-top: 7%;
+        cursor: pointer;
+        transition-duration: 2ms;
+    }
+    #questArab1 {
+        background-image: url(image/bgquest.png);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 57%;
+        color: black;
+        font-size: 3.3vh;
+        font-family: 'Lateef', cursive;
+        text-align: center;
+        line-height: 2.5em;
+    }
+}

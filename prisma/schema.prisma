@@ -1,0 +1,73 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+model User {
+  id           String   @id @default(uuid())
+  firstName    String
+  lastName     String
+  email        String   @unique
+  phone        String?
+  country      String?
+  passwordHash String
+  role         Role     @default(USER)
+  createdAt    DateTime @default(now())
+
+  accessCodes AccessCode[]
+  accessLogs  AccessLog[]
+
+  @@map("users")
+}
+
+model AccessCode {
+  id           String    @id @default(uuid())
+  code         String?
+  codeHash     String    @unique
+  userId       String?
+  email        String?
+  validityDays Int
+  expiresAt    DateTime
+  used         Boolean   @default(false)
+  createdAt    DateTime  @default(now())
+
+  user User? @relation(fields: [userId], references: [id])
+
+  accessLogs AccessLog[]
+
+  @@map("access_codes")
+}
+
+model AccessLog {
+  id         String   @id @default(uuid())
+  userId     String?
+  codeId     String?
+  accessedAt DateTime @default(now())
+  ip         String?
+
+  user       User?       @relation(fields: [userId], references: [id])
+  accessCode AccessCode? @relation(fields: [codeId], references: [id])
+
+  @@map("access_logs")
+}
+
+model BookOtpCode {
+  id        String   @id @default(uuid())
+  email     String
+  codeHash  String
+  expiresAt DateTime
+  used      Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@index([email])
+  @@map("book_otp_codes")
+}
